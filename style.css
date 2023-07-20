@@ -1,0 +1,115 @@
+#main-h1 {
+    color:blue;
+}
+
+.pre {
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.red-text {
+    color: red;
+}
+
+.emp {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+.example { 
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+/* https://www.youtube.com/watch?v=gM_9k1eWiXA */
+
+.text {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0px 0px 30px 0px;
+}
+
+.text::first-line{
+    color: green;
+}
+
+.text::first-letter{
+    color: red;
+    font-size: 30px
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    font-size: 24px;
+    margin: 0px 0px 30px 0px;
+} 
+
+/*
+.list li::before {
+    content: '«';
+}
+*/
+
+.list li::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+
+.list li::after {
+    content: '»';
+}
+
+.list li:hover:before{
+    background-color: green;
+}
+
+/*
+input::-ms-clear {
+    display: none;
+}
+
+button::-moz-focus-inner{
+    padding:0;border0;
+}
+*/
+.greenText {
+    color: green;
+}
+
+p {
+    text-indent: 20px;
+}
+
+p::first-line { text-indent: 30px; }
+
+.indent { text-indent: 20px; }
+
+h3 {
+    text-indent: 20px;   
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+.left{
+    display: flex;
+    Justify-content: end;
+}
+
+.example-container {
+    display: flex;
+    justify-content: space-between;
+}
+.example {
+    display: flex;
+}
